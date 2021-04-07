@@ -1,2 +1,4 @@
 # autoencoder
 A Deep Dive of Autoencoder Models on the Low Contrast Aqua-Object Images
+
+The autoencoder neural network is an emerging technique to extract the latent space from the input source and reconstruct the similar image back within an acceptable loss range. To conduct the autoencoder against the lower contrast images, from the aquarium video specifically, requires additional attention. This paper brought up several interesting research questions about the autoencoder and proposes a framework derived from two widely applied approaches, the MLP and the CNN, to tell the differences under various configurations and the model structures as well. By comparing the results visually and numerically, they prove the outcomes of autoencoder image reconstruction “more is not always better”. This paper also concluded that proper preprocessing against the low contrast images will help the autoencoder model convergence and have better predicting results.
